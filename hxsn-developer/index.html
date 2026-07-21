@@ -1,0 +1,632 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Premium personal portfolio website for Alex Morgan, front-end developer and UI/UX designer.">
+  <meta name="keywords" content="portfolio, web developer, front-end developer, UI UX designer, responsive web design">
+  <meta name="author" content="Alex Morgan">
+  <title>Alex Morgan | Premium Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+  <header class="site-header">
+    <nav class="navbar" aria-label="Primary navigation">
+      <a class="logo" href="#top" aria-label="Alex Morgan home">
+        <span class="logo-mark">H</span>
+        <span>XSN</span>
+      </a>
+
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Toggle navigation menu">
+      <label class="hamburger" for="nav-toggle" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <ul class="nav-menu">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home" aria-labelledby="hero-title">
+      <div class="hero-bg-shape shape-one"></div>
+      <div class="hero-bg-shape shape-two"></div>
+      <div class="hero-bg-shape shape-three"></div>
+
+      <div class="container hero-grid">
+        <article class="hero-content">
+          <p class="eyebrow fade-in">Premium Web Experiences</p>
+          <h1 id="hero-title" class="hero-title slide-in">
+            Hi, I'm <span>Alex Morgan</span>
+          </h1>
+          <h2 class="hero-role">Front-End Developer & UI/UX Designer</h2>
+          <p class="hero-copy">
+            I craft fast, elegant, and accessible digital products that help ambitious brands look sharper, feel premium, and convert with confidence.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">
+              <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+              Hire Me
+            </a>
+            <a class="btn btn-secondary" href="#" download>
+              <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i>
+              Download CV
+            </a>
+          </div>
+        </article>
+
+        <aside class="hero-visual" aria-label="Professional profile image">
+          <div class="profile-card">
+            <div class="profile-glow"></div>
+            <img src="https://picsum.photos/seed/alex-premium-profile/720/860" alt="Professional portrait placeholder of Alex Morgan">
+            <div class="floating-badge badge-top">
+              <i class="fa-solid fa-award" aria-hidden="true"></i>
+              <span>8+ Years</span>
+            </div>
+            <div class="floating-badge badge-bottom">
+              <i class="fa-solid fa-bolt" aria-hidden="true"></i>
+              <span>120 Projects</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">About Me</p>
+          <h2 id="about-title">Design-minded developer building polished web products.</h2>
+        </div>
+
+        <div class="about-grid">
+          <article class="glass-panel about-bio">
+            <h3>Biography</h3>
+            <p>
+              I partner with founders, agencies, and product teams to transform ideas into refined, reliable web experiences. My work blends front-end engineering, interaction design, performance, and a strong eye for visual detail.
+            </p>
+            <p>
+              From landing pages to complex dashboards, I focus on clean structure, responsive layouts, accessible interfaces, and meaningful motion that makes every interaction feel intentional.
+            </p>
+            <a class="btn btn-primary compact" href="#" download>
+              <i class="fa-solid fa-download" aria-hidden="true"></i>
+              Download Resume
+            </a>
+          </article>
+
+          <article class="glass-panel info-card">
+            <h3>Personal Info</h3>
+            <ul class="info-list">
+              <li><span>Name</span><strong>Alex Morgan</strong></li>
+              <li><span>Email</span><strong>hello@alexmorgan.dev</strong></li>
+              <li><span>Location</span><strong>New York, USA</strong></li>
+              <li><span>Availability</span><strong>Freelance & Contract</strong></li>
+            </ul>
+          </article>
+
+          <article class="glass-panel achievement-card">
+            <h3>Achievements</h3>
+            <div class="achievement-list">
+              <div>
+                <i class="fa-solid fa-trophy" aria-hidden="true"></i>
+                <p>Top-rated independent designer on global marketplaces.</p>
+              </div>
+              <div>
+                <i class="fa-solid fa-chart-line" aria-hidden="true"></i>
+                <p>Improved conversion rates by up to 42% for SaaS clients.</p>
+              </div>
+              <div>
+                <i class="fa-solid fa-universal-access" aria-hidden="true"></i>
+                <p>Built accessible interfaces for finance, health, and education brands.</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="experience-snapshot">
+            <span>8+</span>
+            <p>Years of professional experience in front-end delivery and interface design.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-heading center">
+          <p class="eyebrow">Core Skills</p>
+          <h2 id="skills-title">Modern technologies with production polish.</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card level-96 delay-1">
+            <i class="fa-brands fa-html5" aria-hidden="true"></i>
+            <h3>HTML</h3>
+            <div class="progress" aria-label="HTML skill level 96 percent"><span></span></div>
+            <p>96%</p>
+          </article>
+          <article class="skill-card level-94 delay-2">
+            <i class="fa-brands fa-css3-alt" aria-hidden="true"></i>
+            <h3>CSS</h3>
+            <div class="progress" aria-label="CSS skill level 94 percent"><span></span></div>
+            <p>94%</p>
+          </article>
+          <article class="skill-card level-88 delay-3">
+            <i class="fa-brands fa-js" aria-hidden="true"></i>
+            <h3>JavaScript</h3>
+            <div class="progress" aria-label="JavaScript skill level 88 percent"><span></span></div>
+            <p>88%</p>
+          </article>
+          <article class="skill-card level-86 delay-4">
+            <i class="fa-brands fa-react" aria-hidden="true"></i>
+            <h3>React</h3>
+            <div class="progress" aria-label="React skill level 86 percent"><span></span></div>
+            <p>86%</p>
+          </article>
+          <article class="skill-card level-82 delay-5">
+            <i class="fa-brands fa-node-js" aria-hidden="true"></i>
+            <h3>Node.js</h3>
+            <div class="progress" aria-label="Node.js skill level 82 percent"><span></span></div>
+            <p>82%</p>
+          </article>
+          <article class="skill-card level-91 delay-6">
+            <i class="fa-solid fa-pen-nib" aria-hidden="true"></i>
+            <h3>UI/UX Design</h3>
+            <div class="progress" aria-label="UI UX Design skill level 91 percent"><span></span></div>
+            <p>91%</p>
+          </article>
+          <article class="skill-card level-89 delay-7">
+            <i class="fa-brands fa-git-alt" aria-hidden="true"></i>
+            <h3>Git</h3>
+            <div class="progress" aria-label="Git skill level 89 percent"><span></span></div>
+            <p>89%</p>
+          </article>
+          <article class="skill-card level-97 delay-8">
+            <i class="fa-solid fa-mobile-screen-button" aria-hidden="true"></i>
+            <h3>Responsive Design</h3>
+            <div class="progress" aria-label="Responsive Design skill level 97 percent"><span></span></div>
+            <p>97%</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Services</p>
+          <h2 id="services-title">Elegant digital work, engineered for results.</h2>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <i class="fa-solid fa-layer-group" aria-hidden="true"></i>
+            <h3>Web Design</h3>
+            <p>Premium visual systems, landing pages, and brand-aligned interfaces that feel distinctive.</p>
+          </article>
+          <article class="service-card">
+            <i class="fa-solid fa-code" aria-hidden="true"></i>
+            <h3>Front-End Development</h3>
+            <p>Clean, maintainable, accessible front-end builds with smooth interaction patterns.</p>
+          </article>
+          <article class="service-card">
+            <i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i>
+            <h3>UI/UX Design</h3>
+            <p>Research-led layouts, conversion flows, wireframes, and prototypes for better user journeys.</p>
+          </article>
+          <article class="service-card">
+            <i class="fa-solid fa-display" aria-hidden="true"></i>
+            <h3>Responsive Websites</h3>
+            <p>Fluid experiences optimized for desktops, laptops, tablets, and compact mobile screens.</p>
+          </article>
+          <article class="service-card">
+            <i class="fa-solid fa-gauge-high" aria-hidden="true"></i>
+            <h3>Website Optimization</h3>
+            <p>Performance-focused improvements for faster load times, sharper rendering, and better UX.</p>
+          </article>
+          <article class="service-card">
+            <i class="fa-solid fa-magnifying-glass-chart" aria-hidden="true"></i>
+            <h3>SEO Friendly Development</h3>
+            <p>Semantic structures, accessible content, and search-conscious implementation from day one.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section portfolio" id="portfolio" aria-labelledby="portfolio-title">
+      <div class="container">
+        <div class="section-heading center">
+          <p class="eyebrow">Selected Work</p>
+          <h2 id="portfolio-title">Project gallery with immersive hover details.</h2>
+        </div>
+
+        <div class="portfolio-grid">
+          <article class="project-card">
+            <img src="https://picsum.photos/seed/project-luxury-saas/900/650" alt="Modern SaaS dashboard project placeholder">
+            <div class="project-overlay">
+              <h3>Luxury SaaS Dashboard</h3>
+              <p>Analytics workspace with refined data cards, responsive charts, and premium product visuals.</p>
+              <div class="project-links">
+                <a href="#" aria-label="View Luxury SaaS Dashboard project">View Project</a>
+                <a href="#" aria-label="Open Luxury SaaS Dashboard GitHub repository"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="https://picsum.photos/seed/project-fintech-mobile/900/650" alt="Fintech mobile app project placeholder">
+            <div class="project-overlay">
+              <h3>Fintech Mobile Flow</h3>
+              <p>High-trust onboarding and payment experience designed for clarity and speed.</p>
+              <div class="project-links">
+                <a href="#" aria-label="View Fintech Mobile Flow project">View Project</a>
+                <a href="#" aria-label="Open Fintech Mobile Flow GitHub repository"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="https://picsum.photos/seed/project-agency-website/900/650" alt="Creative agency website project placeholder">
+            <div class="project-overlay">
+              <h3>Creative Agency Site</h3>
+              <p>Editorial portfolio experience with motion-rich cards and conversion-focused sections.</p>
+              <div class="project-links">
+                <a href="#" aria-label="View Creative Agency Site project">View Project</a>
+                <a href="#" aria-label="Open Creative Agency Site GitHub repository"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="https://picsum.photos/seed/project-ecommerce-brand/900/650" alt="E-commerce brand project placeholder">
+            <div class="project-overlay">
+              <h3>E-Commerce Brand</h3>
+              <p>Conversion-led storefront with polished product tiles, trust modules, and mobile-first layout.</p>
+              <div class="project-links">
+                <a href="#" aria-label="View E-Commerce Brand project">View Project</a>
+                <a href="#" aria-label="Open E-Commerce Brand GitHub repository"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="https://picsum.photos/seed/project-portfolio-system/900/650" alt="Portfolio system project placeholder">
+            <div class="project-overlay">
+              <h3>Portfolio System</h3>
+              <p>Modular personal brand system with reusable content blocks and elegant responsive rhythm.</p>
+              <div class="project-links">
+                <a href="#" aria-label="View Portfolio System project">View Project</a>
+                <a href="#" aria-label="Open Portfolio System GitHub repository"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="https://picsum.photos/seed/project-ai-landing/900/650" alt="AI landing page project placeholder">
+            <div class="project-overlay">
+              <h3>AI Product Landing</h3>
+              <p>High-impact launch page with premium gradients, sharp messaging, and elegant section flow.</p>
+              <div class="project-links">
+                <a href="#" aria-label="View AI Product Landing project">View Project</a>
+                <a href="#" aria-label="Open AI Product Landing GitHub repository"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Experience</p>
+          <h2 id="experience-title">A steady timeline of design and development leadership.</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span>2023 - Present</span>
+              <h3>Lead Front-End Developer</h3>
+              <p class="company">Nova Studio</p>
+              <p>Leading interface architecture, design systems, and premium marketing experiences for funded startups.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span>2020 - 2023</span>
+              <h3>Senior UI Engineer</h3>
+              <p class="company">Brightline Digital</p>
+              <p>Built responsive product interfaces, optimized performance, and improved accessibility standards across client platforms.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span>2018 - 2020</span>
+              <h3>Web Designer</h3>
+              <p class="company">Pixel & Co.</p>
+              <p>Designed and developed brand websites, campaign pages, and interactive prototypes for creative teams.</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span>2016 - 2018</span>
+              <h3>Junior Front-End Developer</h3>
+              <p class="company">Orbit Labs</p>
+              <p>Delivered landing pages, component libraries, and cross-browser interface fixes for growing product teams.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education" id="education" aria-labelledby="education-title">
+      <div class="container">
+        <div class="section-heading center">
+          <p class="eyebrow">Education</p>
+          <h2 id="education-title">Formal learning refined through real product work.</h2>
+        </div>
+
+        <div class="education-grid">
+          <article class="education-card">
+            <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+            <span>2012 - 2016</span>
+            <h3>B.S. Computer Science</h3>
+            <p>Columbia University</p>
+          </article>
+          <article class="education-card">
+            <i class="fa-solid fa-palette" aria-hidden="true"></i>
+            <span>2017</span>
+            <h3>Interaction Design Specialization</h3>
+            <p>California Institute of the Arts</p>
+          </article>
+          <article class="education-card">
+            <i class="fa-solid fa-chart-simple" aria-hidden="true"></i>
+            <span>2019</span>
+            <h3>Digital Product Strategy</h3>
+            <p>General Assembly</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section certificates" id="certificates" aria-labelledby="certificates-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Certificates</p>
+          <h2 id="certificates-title">Credentials that support thoughtful delivery.</h2>
+        </div>
+
+        <div class="certificate-grid">
+          <article class="certificate-card">
+            <i class="fa-solid fa-certificate" aria-hidden="true"></i>
+            <div>
+              <span>2025</span>
+              <h3>Advanced CSS Architecture</h3>
+              <p>Modern layout systems, scalable styling, and animation best practices.</p>
+            </div>
+          </article>
+          <article class="certificate-card">
+            <i class="fa-solid fa-shield-halved" aria-hidden="true"></i>
+            <div>
+              <span>2024</span>
+              <h3>Web Accessibility Specialist</h3>
+              <p>WCAG-focused interface audits, keyboard flows, and inclusive content patterns.</p>
+            </div>
+          </article>
+          <article class="certificate-card">
+            <i class="fa-solid fa-rocket" aria-hidden="true"></i>
+            <div>
+              <span>2023</span>
+              <h3>Performance Optimization</h3>
+              <p>Core Web Vitals, asset strategy, and front-end rendering improvements.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" aria-labelledby="stats-title">
+      <div class="container">
+        <h2 id="stats-title" class="sr-only">Professional statistics</h2>
+        <div class="stats-grid">
+          <article class="stat-card">
+            <strong class="counter projects-count" data-suffix="+"></strong>
+            <span>Projects Completed</span>
+          </article>
+          <article class="stat-card">
+            <strong class="counter clients-count" data-suffix="+"></strong>
+            <span>Happy Clients</span>
+          </article>
+          <article class="stat-card">
+            <strong class="counter years-count" data-suffix="+"></strong>
+            <span>Years Experience</span>
+          </article>
+          <article class="stat-card">
+            <strong class="counter awards-count" data-suffix=""></strong>
+            <span>Awards</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials" id="testimonials" aria-labelledby="testimonials-title">
+      <div class="container">
+        <div class="section-heading center">
+          <p class="eyebrow">Testimonials</p>
+          <h2 id="testimonials-title">Trusted by teams who care about details.</h2>
+        </div>
+
+        <div class="testimonial-grid">
+          <article class="testimonial-card">
+            <div class="testimonial-header">
+              <img src="https://picsum.photos/seed/client-maya/160/160" alt="Client portrait placeholder for Maya Chen">
+              <div>
+                <h3>Maya Chen</h3>
+                <p>Founder, Luma AI</p>
+              </div>
+            </div>
+            <div class="stars" aria-label="5 out of 5 stars">
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+            </div>
+            <p>Alex translated a complex product into a calm, premium website that instantly made our brand feel more trustworthy.</p>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-header">
+              <img src="https://picsum.photos/seed/client-daniel/160/160" alt="Client portrait placeholder for Daniel Price">
+              <div>
+                <h3>Daniel Price</h3>
+                <p>Product Lead, Finory</p>
+              </div>
+            </div>
+            <div class="stars" aria-label="5 out of 5 stars">
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+            </div>
+            <p>The build was fast, responsive, and visually excellent. Every detail felt considered, from mobile spacing to hover states.</p>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-header">
+              <img src="https://picsum.photos/seed/client-sofia/160/160" alt="Client portrait placeholder for Sofia Ramirez">
+              <div>
+                <h3>Sofia Ramirez</h3>
+                <p>Creative Director, Northline</p>
+              </div>
+            </div>
+            <div class="stars" aria-label="5 out of 5 stars">
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+            </div>
+            <p>Working with Alex felt effortless. The final site looked expensive, loaded smoothly, and gave our campaign real presence.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Have a premium web project in mind?</h2>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <article class="contact-card">
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+              <div>
+                <h3>Email</h3>
+                <p>hello@alexmorgan.dev</p>
+              </div>
+            </article>
+            <article class="contact-card">
+              <i class="fa-solid fa-phone" aria-hidden="true"></i>
+              <div>
+                <h3>Phone</h3>
+                <p>+1 (555) 248-9021</p>
+              </div>
+            </article>
+            <article class="contact-card">
+              <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+              <div>
+                <h3>Studio</h3>
+                <p>New York, United States</p>
+              </div>
+            </article>
+            <div class="social-row" aria-label="Social media links">
+              <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+              <a href="#" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+              <a href="#" aria-label="Dribbble"><i class="fa-brands fa-dribbble" aria-hidden="true"></i></a>
+              <a href="#" aria-label="Behance"><i class="fa-brands fa-behance" aria-hidden="true"></i></a>
+            </div>
+          </div>
+
+          <form class="contact-form" action="#" method="post">
+            <div class="form-row">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required>
+            </div>
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+            <div class="form-row">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project inquiry" required>
+            </div>
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" placeholder="Tell me about your project" required></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">
+              <i class="fa-solid fa-paper-plane" aria-hidden="true"></i>
+              Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="logo" href="#top" aria-label="Alex Morgan home">
+          <span class="logo-mark">A</span>
+          <span>Alex</span>
+        </a>
+        <p>Premium portfolio experiences for founders, creators, and ambitious product teams.</p>
+      </div>
+
+      <ul class="footer-links" aria-label="Footer navigation">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="footer-social" aria-label="Footer social media links">
+        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+        <a href="#" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+        <a href="#" aria-label="Dribbble"><i class="fa-brands fa-dribbble" aria-hidden="true"></i></a>
+      </div>
+    </div>
+    <div class="container copyright">
+      <p>&copy; 2026 Alex Morgan. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <a class="scroll-top" href="#top" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+  </a>
+</body>
+</html>
